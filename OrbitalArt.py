@@ -1,4 +1,6 @@
 import pygame
+from math import *
+
 
 def maps(value,istart,istop,ostart,ostop):
     return ostart+(ostop-ostart)*((value-istart)/(istop-istart))
